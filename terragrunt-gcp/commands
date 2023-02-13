@@ -1,0 +1,7 @@
+terragrunt run-all init
+
+terragrunt run-all apply
+
+Enter following command to list of remote backend state
+gsutil ls gs://lab-bucket-cal-2973-178c329916de/*
+
